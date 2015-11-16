@@ -46,7 +46,7 @@
   if (mysqli_query($connection, $query)) {
       echo "<p>Success! The user <strong>" . $provided_username . "</strong> was created.</p>";
   } else {
-      echo "<p>Error. The user " . $provided_username . " could not be created.</p>";
+      echo "<p>Error. The user <strong>" . $provided_username . "</strong> could not be created.</p>";
   }
   
   ?>
